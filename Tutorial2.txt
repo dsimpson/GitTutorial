@@ -6,7 +6,7 @@ To create a conflict two users will modify the same line in this file locally an
 
 
 
-[Modify this line of the file]
+[This line of the file was modified]
 
 
 
@@ -22,3 +22,5 @@ Resolving the Conflict:
 The conflict can be resolved from GitBash using
 
 	$ git mergetool
+
+Once all conflicts are resolved you may commit and push your changes.
