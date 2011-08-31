@@ -13,7 +13,7 @@ and then committed to the local repository with GitBash using
 Step 2:
 Pushing to the online repository with GitBash using
 
-	$ git pull
-	$ git push
+	$ git pull origin master
+	$ git push origin master
 
 (you should always pull down any potential changes from the online repository before attempting to push your changes up)
