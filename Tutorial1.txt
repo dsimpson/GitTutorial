@@ -1,7 +1,19 @@
 Tutorial 1: Creating, adding, modifying and committing.
 
 Step 1:
-This file was created on the local machine and then added to the local repository with GitBash using the following commands.
+This file was created on the local machine and then added to the local repository with GitBash using
 
-$ git add Tutorial.txt
-$ git commit -a -m "Tutorial 1, Step 1"
+	$ git add Tutorial.txt
+
+and then committed to the local repository with GitBash using
+
+	$ git commit -a -m "Tutorial 1, Step 1"
+
+
+Step 2:
+Pushing to the online repository with GitBash using
+
+	$ git pull
+	$ git push
+
+(you should always pull down any potential changes from the online repository before attempting to push your changes up)
