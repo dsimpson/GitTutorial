@@ -5,4 +5,20 @@ This file was created to enable the creation and resolution of conflicts in Git.
 To create a conflict two users will modify the same line in this file locally and push the modification up to the online repository. The first user won't have any problems but the second user will have a conflict.
 
 
-[This line of the file has been modified]
+
+[Modify this line of the file]
+
+
+
+The conflict results in this file being modified with the following text
+
+	<<<<<<< HEAD
+	[modified text from user 1]
+	=======
+	[modified text from user 2]
+	>>>>>>> [commit id]
+
+Resolving the Conflict:
+The conflict can be resolved from GitBash using
+
+	$ git mergetool
