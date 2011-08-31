@@ -6,7 +6,7 @@ To create a conflict two users will modify the same line in this file locally an
 
 
 
-[Modify this line of the file]
+[Modify this line of the file BIG BUNCHA MODIFICATIONS]
 
 
 
