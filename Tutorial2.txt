@@ -1,0 +1,8 @@
+Tutorial 2: Conflicts.
+
+This file was created to enable the creation and resolution of conflicts in Git. Conflicts occur when different users make changes to the same files (or folder structure) and Git is unable to merge the changes. At this point a user must tell Git which parts of the code are valid.
+
+To create a conflict two users will modify the same line in this file locally and push the modification up to the online repository. The first user won't have any problems but the second user will have a conflict.
+
+
+[Modify this line of the file]
