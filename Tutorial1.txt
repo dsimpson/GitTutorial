@@ -32,12 +32,16 @@ Committing and pushing the modified file is as before
 
 
 Key concepts:
-*** Files need to be added to staging area before they can be committed. The -a switch in the commit command automatically "add"s changes from all known files (i.e. all files that are already listed in the index) and to automatically "rm"s files in the index that have been removed from the working tree. If you want to be more selective with which modified files you want to commit, explicitly add the desired files and then commit without the -a switch. For example
+*** Files need to be added to the staging area before they can be committed. The -a switch in the commit command automatically "add"s changes from all known files (i.e. all files that are already listed in the index) and to automatically "rm"s files in the index that have been removed from the working tree. If you want to be more selective with which modified files you want to commit, explicitly add the desired files and then commit without the -a switch. For example
 
 	$ git add [filename]
 	$ git commit -m "[insert commit message here]"
 
 *** When files are committed they are committed to your local repository. To get the latest changes from the online repository or to add your changes to the online repository you will need to pull and push respectively.
+
+*** If you accidentally add a file to the staging area that you don't want to commit you can use the following command
+
+	$ git reset HEAD [filename]
 
 
 Todo:
