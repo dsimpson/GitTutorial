@@ -5,4 +5,4 @@ This file was created to enable the creation and resolution of conflicts in Git.
 To create a conflict two users will modify the same line in this file locally and push the modification up to the online repository. The first user won't have any problems but the second user will have a conflict.
 
 
-[Modify this line of the file]
+[This line of the file has been modified]
