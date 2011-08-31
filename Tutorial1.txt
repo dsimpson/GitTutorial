@@ -1,6 +1,6 @@
-Tutorial 1: Creating, adding, modifying and committing.
+Tutorial 1: Creating, adding, committing, pushing and modifying.
 
-Step 1:
+Step 1: Creating, adding, committing
 This file was created on the local machine and then added to the local repository with GitBash using
 
 	$ git add Tutorial.txt
@@ -10,10 +10,14 @@ and then committed to the local repository with GitBash using
 	$ git commit -a -m "Tutorial 1, Step 1"
 
 
-Step 2:
-Pushing to the online repository with GitBash using
+Step 2: Pushing
+This file was pushed to the online repository with GitBash using
 
 	$ git pull origin master
 	$ git push origin master
 
-(you should always pull down any potential changes from the online repository before attempting to push your changes up)
+(you should always pull down any potential changes from the online repository before attempting to push your changes up. It is possible that the pull will fail if you have uncommitted changes to files that would be modified by the pull. In that case you will need to commit your changes to those files and then pull)
+
+
+Step 3: Modifying
+This file was then modified (by adding Step 3).
