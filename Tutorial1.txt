@@ -7,7 +7,7 @@ This file was created on the local machine and then added to the local repositor
 
 and then committed to the local repository with GitBash using
 
-	$ git commit -a -m "Tutorial 1, Step 1"
+	$ git commit -a -m "[insert commit message here]"
 
 
 Step 2: Pushing
@@ -20,4 +20,31 @@ This file was pushed to the online repository with GitBash using
 
 
 Step 3: Modifying
-This file was then modified (by adding Step 3).
+This file was then modified (by adding Step 3). The list of modified files can be viewed with GitBash using
+
+	$ git status
+
+Committing and pushing the modified file is as before
+
+	$ git commit -a -m "[insert commit message here]"
+	$ git pull origin master
+	$ git push origin master
+
+
+Key concepts:
+*** Files need to be added to staging area before they can be committed. The -a switch in the commit command automatically "add"s changes from all known files (i.e. all files that are already listed in the index) and to automatically "rm"s files in the index that have been removed from the working tree. If you want to be more selective with which modified files you want to commit, explicitly add the desired files and then commit without the -a switch. For example
+
+	$ git add [filename]
+	$ git commit -m "[insert commit message here]"
+
+*** When files are committed they are committed to your local repository. To get the latest changes from the online repository or to add your changes to the online repository you will need to pull and push respectively.
+
+
+Todo:
+Learn how to set a default merge branch so that
+
+	$ git [pull | push] origin master
+
+would become
+
+	$ git [pull | push]
