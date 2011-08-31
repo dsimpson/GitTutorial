@@ -1,7 +1,7 @@
 Tutorial 1: Creating, adding, modifying and committing.
 
 Step 1:
-This file was created on the local machine and then added to the local repository with GitBash using the following command.
+This file was created on the local machine and then added to the local repository with GitBash using the following commands.
 
 $ git add Tutorial.txt
-
+$ git commit -a -m "Tutorial 1, Step 1"
