@@ -1,5 +1,7 @@
 // Tutorial4.cpp : Defines the entry point for the console application.
 //
+// This is a simple hello world application to test Git integration
+// with Visual Studio.
 
 #include "stdafx.h"
 
