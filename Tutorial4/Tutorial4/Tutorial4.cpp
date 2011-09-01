@@ -14,7 +14,12 @@ int _tmain(int argc, _TCHAR* argv[])
 {
     cout << "Hello World" << endl;
     cout << "Being tracked by Git" << endl;
-	cout << "because we can!" << endl;
+    cout << "because we can!" << endl;
+
+	int bigStupidMistake;
+
+	bigStupidMistake = 70 - 1;
+
 	system("PAUSE");
 	return 0;
 }
