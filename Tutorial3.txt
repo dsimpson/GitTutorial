@@ -9,3 +9,4 @@ Commit 1: The first commit of the series.
 
 Commit 2: The second commit of the series.
 
+Commit 3: The third commit of the series.
