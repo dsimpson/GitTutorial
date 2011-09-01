@@ -13,3 +13,4 @@ Commit 3: The third commit of the series.
 
 Commit 4: The fourth commit of the series after reverting the second commit.
 
+Commit 5: The fifth commit of the series after reverting the previous revert, thus restoring the second commit. After this commit I will revert the third commit.
