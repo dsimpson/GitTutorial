@@ -9,3 +9,6 @@ Commit 1: The first commit of the series.
 
 
 Commit 3: The third commit of the series.
+
+Commit 4: The fourth commit of the series after reverting the second commit.
+
