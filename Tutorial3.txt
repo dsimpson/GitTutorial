@@ -5,6 +5,8 @@ Given one or more existing commits, revert the changes that the related patches 
 For this tutorial a series of modifications and commits will be made to this file. Then one of the intermediate commits will be reverted.
 
 
+////////////////////////////////////////////////////////////////
+
 Commit 1: The first commit of the series.
 
 Commit 2: The second commit of the series.
@@ -13,3 +15,15 @@ Commit 2: The second commit of the series.
 Commit 4: The fourth commit of the series after reverting the second commit.
 
 Commit 5: The fifth commit of the series after reverting the previous revert, thus restoring the second commit. After this commit I will revert the third commit.
+
+////////////////////////////////////////////////////////////////
+
+
+Reverting a previous modification is performed with the following command
+
+	$ git revert [commit id]
+
+Git will attempt to revert the changes and then will by default commit the result after displaying the auto generated commit message. Sometimes Git is not able to complete the revert resulting in a conflict. In that case you will need to resolve the conflict using
+
+	$ git mergetool
+
