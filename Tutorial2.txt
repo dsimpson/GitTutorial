@@ -6,7 +6,7 @@ To create a conflict two users will modify the same line in this file locally an
 
 
 
-[Modify this line of the file]
+[This line of the file was modified]
 
 
 
@@ -18,9 +18,23 @@ The conflict results in this file being modified with the following text
 	[modified text from user 2]
 	>>>>>>> [commit id]
 
+
 Resolving the Conflict:
 The conflict can be resolved from GitBash using
 
 	$ git mergetool
 
 Once all conflicts are resolved you may commit and push your changes.
+
+
+Undoing a Merge:
+If you get stuck and decide to just give up and throw the whole mess away, you can always return to the pre-merge state with
+
+	$ git reset --hard HEAD
+
+
+Notes:
+*** The mergetool command creates *.orig backup files while resolving merges. These are safe to remove once a file has been merged and its git mergetool session has completed. Setting the mergetool.keepBackup configuration variable to false causes git mergetool to automatically remove the backup as files are successfully merged.
+
+	$ git config mergetool.keepBackup false
+

@@ -43,12 +43,17 @@ Key concepts:
 
 	$ git reset HEAD [filename]
 
+*** Fixing mistakes - If you’ve messed up the working tree, but haven’t yet committed your mistake, you can return the entire working tree to the last committed state with
+
+	$ git reset --hard HEAD
 
 Todo:
-Learn how to set a default merge branch so that
+*** Learn how to set a default merge branch so that
 
 	$ git [pull | push] origin master
 
 would become
 
 	$ git [pull | push]
+
+*** Understand the reset command better.
