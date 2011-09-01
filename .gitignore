@@ -29,6 +29,7 @@ _ReSharper*/
 *.vcxproj
 *.vcproj
 *.sdf
+*.opensdf
 *.ipch
 #VS directories
 bin/Debug/
