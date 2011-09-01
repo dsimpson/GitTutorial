@@ -11,6 +11,7 @@ using namespace std;
 int _tmain(int argc, _TCHAR* argv[])
 {
     cout << "Hello World" << endl;
+    cout << "Being tracked by Git" << endl;
     system("PAUSE");
 	return 0;
 }
