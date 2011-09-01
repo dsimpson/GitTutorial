@@ -6,5 +6,8 @@ For this tutorial a series of modifications and commits will be made to this fil
 
 
 Commit 1: The first commit of the series.
+<<<<<<< HEAD
 Commit 2: The second commit of the series.
 Commit 3: The third commit of the series.
+=======
+>>>>>>> parent of fdc731a... Tutorial 3, commit 2
