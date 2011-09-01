@@ -2,6 +2,8 @@
 //
 // This is a simple hello world application to test Git integration
 // with Visual Studio.
+//
+// Another change to the file so I can commit from Visual Studio.
 
 #include "stdafx.h"
 
