@@ -57,3 +57,5 @@ would become
 	$ git [pull | push]
 
 *** Understand the reset command better.
+
+A modification for Eliud.
