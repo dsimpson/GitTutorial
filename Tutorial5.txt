@@ -1,0 +1,6 @@
+Tutorial 5: Branching.
+
+Branching allows you to build new features or test out ideas without putting your main project at risk.
+
+This file was created and committed on the master (trunk). Next a branch will be created. This file will be modified on the branch and then the branch will be merged back.
+ 
