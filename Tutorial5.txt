@@ -3,4 +3,18 @@ Tutorial 5: Branching.
 Branching allows you to build new features or test out ideas without putting your main project at risk.
 
 This file was created and committed on the master (trunk). Next a branch will be created. This file will be modified on the branch and then the branch will be merged back.
- 
+
+
+To create a branch call
+
+	$ git branch [branch name]
+
+To switch to that branch call
+
+	$ git checkout [branch name]
+
+To view all the branches you can call
+
+	$ git branch -a
+
+You can switch between the branches using the checkout command.
