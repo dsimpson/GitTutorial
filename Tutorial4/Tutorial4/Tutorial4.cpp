@@ -4,6 +4,8 @@
 // with Visual Studio.
 //
 // Another change to the file so I can commit from Visual Studio.
+//
+// Yet another change to the file so I can commit from Visual Studio.
 
 #include "stdafx.h"
 
