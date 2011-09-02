@@ -6,7 +6,7 @@ To create a conflict two users will modify the same line in this file locally an
 
 
 
-[This line of the file was modified again]
+[This line of the file was modified, for educational purposes of course.]
 
 
 
